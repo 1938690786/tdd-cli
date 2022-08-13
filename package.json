@@ -1,0 +1,47 @@
+{
+  "name": "tdd-cli",
+  "version": "0.0.3",
+  "description": "tdd工具",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c",
+    "build": "rimraf lib && rollup -c",
+    "demo": "node lib/index.js"
+  },
+  "keywords": [
+    "tdd",
+    "CLI"
+  ],
+  "bin": {
+    "tdd": "bin/tdd"
+  },
+  "author": "bear-w",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.18.12",
+    "@babel/parser": "^7.18.11",
+    "@babel/traverse": "^7.18.11",
+    "chalk": "4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "finalhandler": "^1.2.0",
+    "inquirer": "^9.1.0",
+    "open": "^8.4.0",
+    "os": "^0.1.2",
+    "portfinder": "^1.0.29",
+    "rimraf": "^3.0.2",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.15.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  }
+}
