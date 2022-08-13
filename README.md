@@ -7,9 +7,10 @@ npm i -g tdd-cli
 ```
 
 Options:
-  -h, --help                 display help for command
+  -h, --help
 
 Commands:
   server [options] [options] 静态资源服务，-p 端口
+  
   v 查看当前版本
 ```
