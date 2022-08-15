@@ -6,7 +6,6 @@ import pageageJSON from "../package.json"
 import Server from "./plugins/server/index";
 
 program.name("tdd");
-console.log("修改一")
 
 console.log(chalk.yellow(figlet.textSync('tdd', {
     horizontalLayout: 'full'
