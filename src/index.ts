@@ -7,6 +7,7 @@ import Server from "./plugins/server/index";
 
 program.name("tdd");
 console.log("修改一")
+console.log("修改二")
 
 console.log(chalk.yellow(figlet.textSync('tdd', {
     horizontalLayout: 'full'
