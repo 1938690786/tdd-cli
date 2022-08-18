@@ -1,3 +1,10 @@
+/*
+ * @Author: xw
+ * @Date: 2022-03-16 21:27:07
+ * @LastEditors: zheng yong tao
+ * @LastEditTime: 2022-03-16 23:15:17
+ * @Description:
+ */
 import http from "http";
 import finalhandler from "finalhandler";
 import serveIndex from "serve-index";
@@ -9,6 +16,7 @@ import chalk from "chalk";
 
 export default async function handleServer(path: string, p?: string): Promise<void> {
     let port = await portfinder.getPortPromise();
+    console.log("p", p)
     if (p) {
         port = parseInt(p);
     }
