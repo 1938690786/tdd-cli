@@ -2,6 +2,15 @@
 ┌─ bin
 ├─ ─ bin/tdd
 ├─ fileTree.txt
+├─ lib
+├─ ─ lib/index.js
+├─ ─ lib/src
+├─ ─ ─ lib/src/index.d.ts
+├─ ─ ─ lib/src/plugins
+├─ ─ ─ ─ lib/src/plugins/file-tree
+├─ ─ ─ ─ ─ lib/src/plugins/file-tree/index.d.ts
+├─ ─ ─ ─ lib/src/plugins/server
+├─ ─ ─ ─ ─ lib/src/plugins/server/index.d.ts
 ├─ package-lock.json
 ├─ package.json
 ├─ README.md
